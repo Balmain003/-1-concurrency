@@ -28,5 +28,5 @@ func main() {
 	for vl := range channel2 {
 		result = append(result, vl)
 	}
-	fmt.Println(result)
+	fmt.Println("Рузультат", result)
 }
